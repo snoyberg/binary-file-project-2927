@@ -1,0 +1,11 @@
+extensions:
+  OverloadedStrings: true
+cabal-file: project.cabal
+version: 1
+module-template: ! 'module MODULE_NAME where
+
+'
+modules:
+  Main(src/Main.hs):
+    target-type: console
+    filename: src/Main.hs
