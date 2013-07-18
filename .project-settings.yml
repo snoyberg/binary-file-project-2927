@@ -7,5 +7,4 @@ module-template: ! 'module MODULE_NAME where
 '
 modules:
   Main(src/Main.hs):
-    target-type: web
     filename: src/Main.hs
